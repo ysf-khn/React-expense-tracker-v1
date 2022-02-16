@@ -1,0 +1,47 @@
+.title {
+  margin-top: 1rem;
+  border-bottom: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: white;
+  padding: 0.5rem;
+  margin-bottom: 0.25rem;
+  position: relative;
+}
+
+li span {
+  float: right;
+}
+
+.plus {
+  border-right: 5px solid rgb(68, 209, 68);
+}
+
+.minus {
+  border-right: 5px solid rgb(228, 64, 64);
+}
+
+.delete {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+li:hover .delete {
+  opacity: 1;
+}

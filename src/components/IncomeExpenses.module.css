@@ -1,0 +1,25 @@
+.incExp {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  text-align: center;
+}
+
+.income {
+  flex: 1 1 auto;
+  border-right: 1px solid black;
+}
+
+.income p {
+  color: rgb(65, 185, 65);
+}
+
+.expense {
+  flex: 1 1 auto;
+}
+
+.expense p {
+  color: rgb(226, 79, 79);
+}

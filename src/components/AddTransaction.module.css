@@ -1,0 +1,37 @@
+.add {
+  margin-top: 1rem;
+  border-bottom: 1px solid black;
+}
+
+form {
+  margin-top: 0.5rem;
+}
+
+label {
+  display: block;
+}
+
+label:last-of-type {
+  margin-top: 0.45rem;
+}
+
+input {
+  font: inherit;
+  padding: 0.25rem;
+  border: none;
+}
+
+button {
+  font: inherit;
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0.75rem 0 0 0;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  background-color: rgb(139, 139, 243);
+}
+
+button:hover {
+  background-color: rgb(116, 116, 202);
+}
